@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FDFFC9; /* Light yellow background */
+    color: #333;
+}
+
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #FDFFC9; 
+}
+
+h1, h2 {
+    color: #3B3B3B;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4B4B4B;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+section {
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+section p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+section ul li {
+    font-size: 1.2rem;
+    line-height: 2;
+    margin-bottom: 10px;
+}
+
+.about-foodrise h2 {
+    font-family: 'Poppins', sans-serif; 
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #4B4B4B;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.about-foodrise hr {
+    width: 100%;
+    border: 1px solid #B0C4DE;
+    margin: 20px 0;
+}
+
+.who-we-are h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.who-we-are p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #555;
+    text-align: left; 
+}
+
+.who-we-are hr {
+    width: 100%;
+    border: 1px solid #B0C4DE; 
+    margin: 20px 0;
+}
+
+.our-mission h2 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.our-mission ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.our-mission ul li {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.our-mission ul li:nth-child(1) {
+    text-align: left;
+}
+
+.our-mission ul li:nth-child(2) {
+    text-align: right; 
+}
+
+.our-mission ul li:nth-child(3) {
+    text-align: left; 
+}
+
+.our-mission hr {
+    width: 100%;
+    border: 1px solid #B0C4DE; 
+    margin: 30px 0;
+}
+
+.progress .statistics {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.progress .stat {
+    background-color: #FFF;
+    padding: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 30%;
+    transition: transform 0.3s ease;
+}
+
+.progress .stat:hover {
+    transform: scale(1.05);
+}
+
+.progress .stat h3 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.progress .stat p {
+    font-size: 1.2rem;
+    color: #777;
+    margin-top: 10px;
+}
+
+.progress .summary {
+    text-align: center;
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #444;
+}
+
+.testimonials {
+    padding-top: 30px;
+    border-top: 2px solid #E0E0E0;
+}
+
+.testimonials h2 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4B4B4B;
+    text-transform: uppercase;
+}
+
+.testimonial {
+    background-color: #FFF;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-left: 6px solid #B0C4DE;
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease;
+}
+
+.testimonial:hover {
+    transform: scale(1.03);
+}
+
+.testimonial p {
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.testimonial h4 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333;
+    text-align: left;
+}
+
+.clients-feedback p {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: #444;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.clients-feedback h4 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.testimonial-content {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.testimonial-content span {
+    font-weight: normal;
+}
+
+.footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 30px 0;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.footer-content h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer-content a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.footer-content .social-icons img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.copyright {
+    font-size: 0.9rem;
+    color: #AAA;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .progress .statistics {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonials h2 {
+        font-size: 1.8rem;
+    }
+
+    .testimonial p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .testimonial {
+        padding: 15px;
+    }
+
+    .progress .stat {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .footer-content h4 {
+        font-size: 1rem;
+    }
+
+    .footer-content {
+        padding: 0 20px;
+    }
+}

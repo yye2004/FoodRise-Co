@@ -1,0 +1,45 @@
+/* General Reset */
+
+body {
+    font-family: 'Montserrat';
+    margin:0;
+    background-color: #FDFFC9;
+}
+
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Stack items vertically */
+        gap: 20px; /* Smaller gap */
+    }
+
+    .footer-content {
+        flex-direction: column; /* Stack footer sections vertically */
+        align-items: center; /* Center-align sections */
+    }
+
+    .logo {
+        font-size: 20px; /* Smaller logo size */
+    }
+
+    .user img {
+        width: 25px; /* Smaller icon size */
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    nav ul {
+        padding: 10px;
+    }
+
+    .footer-content h4 {
+        font-size: 16px; /* Smaller section headers */
+    }
+
+    .copyright {
+        margin-top: 20px; /* Adjust spacing */
+    }
+}
+
+
